@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Mak3 IT - Luca Hajduk</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/img/wemakeit.ico">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="bg-light py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="#">
+                <img src="/img/logo.png"  height="45" alt="">
+              </a>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-muted" href="#">Startseite</a></li>
+                    <li class="nav-item"><a class="nav-link text-muted" href="#about">Über mich</a></li>
+                    <li class="nav-item"><a class="nav-link text-muted" href="#services">Dienstleistungen</a></li>
+                    <li class="nav-item"><a class="nav-link text-muted" href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" style="background-image: url('path_to_your_image1.jpg');">
+        <div class="overlay"></div>
+        <div class="container text-center text-white">
+            <h1 class="display-4">Hi, ich bin Luca!</h1>
+            <p class="lead">Fachinformatiker für Anwendungsentwicklung & IT-Enthusiast</p>
+            <a href="#about" class="btn btn-primary">Mehr erfahren</a>
+        </div>
+    </section>
+
+    <!-- Über mich -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Über mich</h2>
+            <p class="text-center">Ich bin Luca, ein leidenschaftlicher Fachinformatiker für Anwendungsentwicklung mit einem Fokus auf innovative IT-Lösungen.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <img src="/img/lucahajduk.jpg" alt="Luca Hajduk" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dienstleistungen -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Meine Services für dich</h2>
+            <p class="text-center">Ich biete eine Vielzahl von IT-Dienstleistungen an, um dein Business zu unterstützen.</p>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <img class="logo" src="icon_path" alt="Service Icon logo" class="mb-3">
+                    <h4>Softwareentwicklung</h4>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img class="logo" src="/img/microsoft-6.svg" alt="Microsoft365 Icon" class="mb-3">
+                    <h4>Microsoft365 Verwaltung</h4>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img class="logo" src="/img/nfon.png" alt="NFON Icon" class="mb-3">
+                    <h4>NFON Telefonanlagen</h4>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img class="logo" src="icon_path" alt="Service Icon" class="mb-3">
+                    <h4>Content Erstellung</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlight Section -->
+    <section class="highlight-section text-white text-center py-5" style="background-image: url('path_to_your_image2.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2 class="display-4">Lass uns deine Website oder IT auf das nächste Level bringen!</h2>
+            <p class="lead">Luca Hajduk - Dein Experte für Anwendungsentwicklung und mehr.</p>
+            <a href="#contact" class="btn btn-primary">Jetzt kontaktieren</a>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Kontakt</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">E-Mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="E-Mail">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Nachricht</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Nachricht"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Senden</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light py-3">
+        <div class="container text-center">
+            <ul class="nav justify-content-center">
+                <!-- <li class="nav-item"><a class="nav-link" href="#">Startseite</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Über mich</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Dienstleistungen</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li> -->
+                <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Impressum</a></li>
+            </ul>
+            <div>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2024 Luca Hajduk</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
